@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="0dp"
+    android:paddingTop="10dp">
+   	<CheckBox 
+       android:id="@+id/setting_sms_cb"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/setting_sms" />
+   	
+   	<CheckBox 
+       android:id="@+id/setting_call_cb"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/setting_call"
+        />
+   	
+   	<CheckBox 
+       android:id="@+id/setting_cache_cb"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/setting_cache"
+        />
+   	
+   	<CheckBox 
+       android:id="@+id/setting_data_cb"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/setting_data"
+        />
+   	
+   	<CheckBox 
+       android:id="@+id/setting_other_cb"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/setting_other"
+        />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_save"  
+        android:title="@string/action_bar_config"  
+        android:icon="@drawable/save"
+        android:showAsAction="ifRoom"/> 
+        
+    <item 
+        android:id="@+id/action_config"  
+        android:title="@string/action_bar_config"  
+        android:icon="@drawable/action_settings"
+        android:showAsAction="ifRoom"/> 
+    
+</menu>

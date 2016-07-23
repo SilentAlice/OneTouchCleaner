@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    >
+    
+      
+     <TextView 
+        android:id="@+id/app_software_tv"
+        android:layout_height="25dp"
+        android:layout_width="fill_parent"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:background="#33B5E5"/>
+    
+    
+    <ListView
+        android:id="@+id/app_software_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" 
+    />
+     
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/app_select_all_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/select_all"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onSelectAll"
+            android:text="@string/app_select_all_btn" />
+        
+        <Button
+            android:id="@+id/app_select_reverse"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onSelectReverse"
+            android:text="@string/app_select_reverse_btn"
+            android:drawableTop="@drawable/select_reverse"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <Button
+            android:id="@+id/app_select_none_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onSelectNone"
+            android:text="@string/app_select_none_btn"
+            android:drawableTop="@drawable/select_clear"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <Button
+            android:id="@+id/app_select_mode_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onSelectMode"
+            android:text="@string/app_select_mode_btn"
+            android:drawableTop="@drawable/mode"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

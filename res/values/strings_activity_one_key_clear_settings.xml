@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="title_activity_one_key_clear_settings">OneKeyClearConfig</string>
+    <string name="setting_sms">Enable SMS Clean</string>
+    <string name="setting_call">Enable CallLog Clean</string>
+    <string name="setting_cache">Enable App Cache Clean</string>
+    <string name="setting_data">Enable App Data Clean</string>
+    <string name="setting_other">Enable RAM Clean</string>
+    <string name="about_label">About</string>
+    <string name="about_app_name">One Touch Cleaner</string>
+    <string name="about_maker">Yuming Wu, Xu Ji, Xiangyang Li</string>
+    <string name="about_school">Software Engineering School of</string>
+    <string name="about_university">XianJiaoTong University</string>
+    <string name="about_description">Just one touch, you can clean whatever you want!\n\nYour privacy will be protected by us. Your precious time will be saved by us. Not only convenient it is, but also it can prevent other people form peeping your privacy.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Each string please start with "call" and use lower case. Thanks by Xiaoming -->
+	<string name="sms_activity_title" >SMSCleaner</string>
+	<string name="sms_select_date">Select Date</string>
+	<string name="sms_input_number">Num</string>
+	<string name="sms_days_before"><B>Days Before</B></string>
+	<string name="sms_days_between">Days Between</string>
+	<string name="sms_delete_strange_call">Delete Strange SMS</string>
+	<string name="sms_enable_filter">Enable Filter(Delete List is prior)</string>
+	<string name="sms_reserve"><b>Reserve List</b></string>
+	<string name="sms_delete"><b>Delete List</b></string>
+	<string name="sms_activity_des">The following first 3 conditions will be linked by OR logic. </string>
+	<string name="sms_toast_delete_num">-items have been deleted</string>
+	<string name="sms_alert_input_num">Please input a number in "Num"</string>
+	<string name="sms_alert_select_date">Please select at least one date</string>
+	<string name="sms_alert_num_range">The numbers days range from 0 to 15000</string>
+	<string name="sms_alert_select_date_value">The date1 must less than or equal date2</string>
+	<string name="sms_context_menu_list">Remove</string>
+</resources>

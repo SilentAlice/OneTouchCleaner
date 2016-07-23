@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OneTouchCleaner</string>
+    <string name="action_settings_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_bar_config">Config</string>
+    <string name="main_activity_app_btn">应用清理</string>
+    <string name="main_activity_sms_btn">短信清理</string>
+    <string name="main_activity_call_btn">通话清理</string>
+    <string name="main_activity_other_btn">内存清理</string>
+    <string name="main_activity_one_key_btn">一键清理</string>
+    <string name="clear_all_btn">清理所有</string>
+    <string name="rooted">获得root权限</string>
+    <string name="not_rooted">获取root权限失败</string>
+    <string name="title_activity_splash">OneTouchCleaner</string>
+    <string name="main_save_successfully">设置保存成功</string>
+    <string name="main_config_save_successfully">设置保存成功</string>
+    <string name="main_sms_clean_fin">条短信已删除</string>
+    <string name="main_call_clean_fin">条通话记录已删除</string>
+    <string name="main_app_clean_fin">应用清理完成</string>
+    <string name="main_ram_clean_fin">内存清理完成</string>
+    <string name="main_press_back">再按一次退出</string>
+</resources>

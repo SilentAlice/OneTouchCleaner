@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="title_activity_one_key_clear_settings">设置</string>
+    <string name="setting_sms">启用短信清理</string>
+    <string name="setting_call">启用通话记录清理</string>
+    <string name="setting_cache">启用应用缓存清理</string>
+    <string name="setting_data">启用应用数据清理</string>
+    <string name="setting_other">启用内存清理</string>
+    <string name="about_label">关于</string>
+    <string name="about_app_name">One Touch Cleaner</string>
+    <string name="about_maker">吴宇明，姬旭，李向阳</string>
+    <string name="about_school">西安交通大学</string>
+    <string name="about_university">软件学院</string>
+    <string name="about_description">仅仅一触，便可以清理掉你想清理的任何东西！\n\n你的隐私会被我全面得保护~ 你珍贵的时间会被我点点得节省~ 我不仅可以加速你的常用清理，更可以防止他人窥视你的信息~</string>
+</resources>

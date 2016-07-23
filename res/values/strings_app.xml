@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_activity_title" >AppCleaner</string>
+	<string name="app_select_all_btn">   All   </string>
+	<string name="app_select_none_btn">  None  </string>
+	<string name="app_select_reverse_btn">Reverse</string>
+	<string name="app_select_mode_btn">  Mode  </string>
+	<string name="app_dialog_clear_data">Are you really want to clear data? (Can not be recovered!)</string>
+	
+	<string name="app_dialog_collecting">Collecting Info</string>
+	<string name="app_dialog_wait">Please Wait. . .</string>
+	<string name="app_dialog_clearing">Clearing Info</string>
+	<string name="app_toast_clearfi">Clear Successfully</string>
+	<string name="app_dialog_delete_error">Sorry, deletion failed. Try to delete yourself ^.^</string>
+	
+	<string name="app_cache_clean">Cache Clean</string>
+	<string name="app_data_clean">Data Clean</string>
+   
+
+</resources>

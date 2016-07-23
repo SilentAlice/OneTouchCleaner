@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    >
+   <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="0dp"
+	    android:paddingLeft="0dp"
+	    android:paddingRight="0dp"
+	    android:paddingTop="0dp"
+	    android:orientation="vertical"
+	    android:gravity="center_horizontal"
+    >
+    
+     <ImageView 
+        android:layout_width="48dip"
+        android:layout_marginTop="50dp"
+        android:layout_height="48dip"
+        android:background="@drawable/about_img" />
+     
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_marginTop="20dp"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:layout_height="wrap_content"
+         android:text="@string/about_app_name" />
+     
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_margin="15dp"
+         android:textSize="15sp"
+         android:layout_height="wrap_content"
+         android:text="@string/about_description" />
+     
+     </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:orientation="vertical"
+       android:paddingBottom="0dp"
+       android:paddingLeft="0dp"
+       android:paddingRight="0dp"
+       android:paddingTop="0dp" >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/about_maker"
+           android:textSize="15sp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/about_school"
+           android:textSize="15sp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/about_university"
+           android:textSize="15sp" />
+   </LinearLayout>
+    
+</LinearLayout>

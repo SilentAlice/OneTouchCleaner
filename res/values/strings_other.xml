@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <!-- Each string please start with "other" and use lower case. Thanks by Xiaoming -->
+	<string name="other_activity_title">RAMCleaner</string>
+	<string name="other_ram_clear_btn">Clear RAM</string>
+	<string name="other_ram_available_ram">Available</string>
+</resources>

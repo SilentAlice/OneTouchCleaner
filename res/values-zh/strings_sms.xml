@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Each string please start with "call" and use lower case. Thanks by Xiaoming -->
+	<string name="sms_activity_title" >SMSCleaner</string>
+	<string name="sms_select_date">选择日期</string>
+	<string name="sms_input_number">天数</string>
+	<string name="sms_days_before"><B>天前</B></string>
+	<string name="sms_days_between">日期范围</string>
+	<string name="sms_delete_strange_call">删除垃圾短信</string>
+	<string name="sms_enable_filter">启用过滤器(删除列表优先)</string>
+	<string name="sms_reserve"><b>白名单</b></string>
+	<string name="sms_delete"><b>黑名单</b></string>
+	<string name="sms_activity_des">前三个选项将会以 或 逻辑执行</string>
+	<string name="sms_toast_delete_num">条短信被删除</string>
+	<string name="sms_alert_input_num">请在输入天数</string>
+	<string name="sms_alert_select_date">请至少选择一个日期</string>
+	<string name="sms_alert_num_range">天数范围需在0~15000之间</string>
+	<string name="sms_alert_select_date_value">日期1必须小于日期2</string>
+	<string name="sms_context_menu_list">移除</string>
+</resources>

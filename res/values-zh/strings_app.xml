@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_activity_title" >AppCleaner</string>
+	<string name="app_select_all_btn">全选</string>
+	<string name="app_select_none_btn">不选</string>
+	<string name="app_select_reverse_btn">反选</string>
+	<string name="app_select_mode_btn">模式</string>
+	<string name="app_dialog_clear_data">你真的想清理数据吗？(不可恢复)</string>
+	
+	<string name="app_dialog_collecting">收集信息中</string>
+	<string name="app_dialog_wait">请稍等. . .</string>
+	<string name="app_dialog_clearing">清理信息</string>
+	<string name="app_toast_clearfi">清理成功</string>
+	<string name="app_dialog_delete_error">删除好像遇到了点问题的说O O 你可以试着单独清理这些应用 ^.^</string>
+	
+	<string name="app_cache_clean">缓存清理</string>
+	<string name="app_data_clean">数据清理</string>
+   
+
+</resources>

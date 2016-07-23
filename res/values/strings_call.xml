@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Each string please start with "call" and use lower case. Thanks by Xiaoming -->
+	<string name="call_activity_title" >CallLogCleaner</string>
+	<string name="call_select_date">Select Date</string>
+	<string name="call_input_number">Num</string>
+	<string name="call_days_before"><B>Days Before</B></string>
+	<string name="call_days_between">Days Between</string>
+	<string name="call_delete_strange_call">Delete Strange Calls</string>
+	<string name="call_enable_filter">Enable Filter(Delete List is prior)</string>
+	<string name="call_reserve"><b>Reserve List</b></string>
+	<string name="call_delete"><b>Delete List</b></string>
+	<string name="call_activity_des">The following first 3 conditions will be linked by OR logic. </string>
+	<string name="call_toast_delete_num">-items have been deleted</string>
+	<string name="call_alert_input_num">Please input a number in "Num"</string>
+	<string name="call_alert_select_date">Please select at least one date</string>
+	<string name="call_alert_num_range">The numbers days range from 0 to 15000</string>
+	<string name="call_alert_select_date_value">The date1 must less than or equal date2</string>
+	<string name="call_context_menu_list">Remove</string>
+</resources>

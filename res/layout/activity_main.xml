@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bg_main" >
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bg_maintop" >
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/btnSMSClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_activity_sms_btn"
+            android:drawableTop="@drawable/content_email"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onBtnSMSClearClicked"
+            />
+
+        <Button
+            android:id="@+id/btnCallClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_activity_call_btn"
+            android:drawableTop="@drawable/device_access_call"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onBtnCallClearClicked"
+            />
+        
+        <Button
+            android:id="@+id/btnAppClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_activity_app_btn"
+            android:drawableTop="@drawable/collections_view_as_grid"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onBtnAppClearClicked"
+            />
+        
+        <Button
+            android:id="@+id/btnOther"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_activity_other_btn"
+            android:drawableTop="@drawable/collections_collection"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="onBtnOtherClearClicked"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOneKeyClear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="onBtnOneKeyClearClicked"
+        android:background="@drawable/btn_onekey" />
+    
+     <ScrollView 
+       	android:id="@+id/main_scrollview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:layout_above="@id/btnOneKeyClear"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+         >
+    <TextView 
+        android:id="@+id/main_status_tv"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"        
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    </ScrollView>
+
+</RelativeLayout>
